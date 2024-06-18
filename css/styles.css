@@ -84,6 +84,11 @@ p {
     color: #333;
 }
 
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* Media Queries for Responsive Design */
 @media (max-width: 600px) {
     .container {

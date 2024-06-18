@@ -3,50 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firdi konversi suhu</title>
+    <title>Firdi Konversi Suhu</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Website konversi Suhu</h1>
-    </header>
-    <main>
-        <section>
-            <p>Masukkan suhu derajat Celsius (°C) ke kotak di bawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).</p>
-        </section>
+    <div class="container">
+        <header>
+            <h1>Website Konversi Suhu</h1>
+        </header>
+        <main>
+            <section>
+                <p>Masukkan suhu derajat Celsius (°C) ke kotak di bawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).</p>
+            </section>
 
-        <section class="input-group">
-            <label for="celsius">Celsius (°C):</label>
-            <input type="number" id="celsius" class="input-field">
-        </section>
+            <section class="input-group">
+                <label for="celsius">Celsius (°C):</label>
+                <input type="number" id="celsius" class="input-field">
+            </section>
 
-        <section class="button-group">
-            <button class="button" onclick="convertToFahrenheit()">Konversi</button>
-            <button class="button" onclick="reset()">Reset</button>
-            <button class="button" onclick="reverse()">Reverse</button>
-        </section>
+            <section class="button-group">
+                <button class="button" onclick="convertToFahrenheit()">Konversi</button>
+                <button class="button" onclick="reset()">Reset</button>
+                <button class="button" onclick="reverse()">Reverse</button>
+            </section>
 
-        <section class="input-group">
-            <label for="fahrenheit">Fahrenheit (°F):</label>
-            <input type="number" id="fahrenheit" class="input-field" readonly>
-        </section>
+            <section class="input-group">
+                <label for="fahrenheit">Fahrenheit (°F):</label>
+                <input type="number" id="fahrenheit" class="input-field" readonly>
+            </section>
 
-        <section class="calculation-group">
-            <p>Cara Kalkulasi:</p>
-            <p id="calculation" class="calculation"></p>
-        </section>
-        
-        <section>
-            <h2>Cara Konversi Dari Celsius (°C) ke Fahrenheit (°F)</h2>
-            <p>Suhu \( S \) dalam derajat Fahrenheit (°F) sama dengan suhu \( S \) dalam derajat Celsius (°C) kali 9/5 tambah 32.</p>
-            <p>\( S_{(F)} = (S_{(C)} \times 9/5) + 32 \)</p>
-            <p>atau</p>
-            <p>\( S_{(F)} = (S_{(C)} \times 1.8) + 32 \)</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Kalkulator Suhu</p>
-    </footer>
+            <section class="calculation-group">
+                <p>Cara Kalkulasi:</p>
+                <p id="calculation" class="calculation"></p>
+            </section>
+            
+            <section>
+                <h2>Cara Konversi Dari Celsius (°C) ke Fahrenheit (°F)</h2>
+                <p>Suhu \( S \) dalam derajat Fahrenheit (°F) sama dengan suhu \( S \) dalam derajat Celsius (°C) kali 9/5 tambah 32.</p>
+                <p>\( S_{(F)} = (S_{(C)} \times 9/5) + 32 \)</p>
+                <p>atau</p>
+                <p>\( S_{(F)} = (S_{(C)} \times 1.8) + 32 \)</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Kalkulator Suhu</p>
+        </footer>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>

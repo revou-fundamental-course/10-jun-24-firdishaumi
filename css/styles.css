@@ -52,7 +52,6 @@ p {
 .button-group {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .button {
@@ -63,10 +62,8 @@ p {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin: 5px 0;
     flex: 1;
     text-align: center;
-    min-width: 30%;
 }
 
 .button:hover {
